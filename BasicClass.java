@@ -58,7 +58,7 @@ public class BasicClass {
      * @return the value that was removed
     */
     public String pop() {
-    String removedValue = "nothing";
+        String removedValue = "nothing";
 
         if (this.array.length > 0) {
             removedValue = '"' + this.array[this.array.length - 1] + '"';
